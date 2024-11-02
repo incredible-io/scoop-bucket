@@ -1,6 +1,6 @@
 param(
     # overwrite upstream param
-    [String]$upstream = "incredible-io/scoop-bucket:master"
+    [String]$upstream = "incredible-io/scoop-bucket:main"
 )
 
 if (!$env:SCOOP_HOME) { $env:SCOOP_HOME = Convert-Path (scoop prefix scoop) }
